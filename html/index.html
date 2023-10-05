@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap4/bootstrap.css">
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body bg-secondary">
+                <div class="display-4 text-center" id="main_title">To-Do App</div>
+                <hr>
+
+                <div class="form-group">
+                    <label for="">Add New Task</label>
+                    <input type="text" class="form-control" id="task_id">
+                </div>
+                <input type="button" id="sub_btn" value="Add Task" class="btn btn-success">
+                <div class="mt-5">
+                    <div class="h3" id="task_title">Task List</div>
+
+                    <ul class="list-group" id="uList">
+                        <li class="list-group-item">One<span class="float-right"><a class="abc" href="#"
+                                    style="text-decoration:none;">X</a></span>
+                        </li>
+                        <li class="list-group-item">Two<span class="float-right"><a class="abc" href="#"
+                                    style="text-decoration:none;">X</a></span></li>
+                        <li class="list-group-item">Three<span class="float-right"><a class="abc" href="#"
+                                    style="text-decoration:none;">X</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="div1"></div>
+    <select name="" id="sel1">
+        <option value="">-select-</option>
+    </select>
+    <button>btn</button> -->
+
+    <form action="" id="fm1">
+        <div>
+            <input type="radio" name='rg' id="rg1">rg1
+            <input type="radio" name='rg' id="rg2">rg2
+            <input type="radio" name='rg' id="rg3">rg3
+
+
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="chk1">chk1
+            <input type="checkbox" id="chk1">chk2
+            <input type="checkbox" id="chk1">chk3
+
+
+        </div>
+        <div>
+            <input type="submit" value="ok" id="submit_btn">
+
+        </div>
+
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <script src="/js/app.js" type="module"></script>
+    <script src="/js/newjs.js" type="module"></script>
+</body>
+
+</html>
