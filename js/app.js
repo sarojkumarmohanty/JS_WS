@@ -1,3 +1,4 @@
+//this is a common js file
 import { fun, x, Shape } from "./newjs.js";
 
 var fun1 = function () {
